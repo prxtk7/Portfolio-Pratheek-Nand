@@ -1,6 +1,6 @@
 # Digital Design & Fabrication Portfolio
 
-## Student Details
+## 👤 Student Details
 - Name: Pratheek Nand
 - Program: M.Sc. Engineering of Socio-Technical Systems
 - University: Carl von Ossietzky Universität Oldenburg
@@ -10,20 +10,14 @@
 
 ---
 
-## Portfolio Overview
-This portfolio documents my work, progress, and learning outcomes throughout the Digital Design & Fabrication course. It includes structured records of exercises, design processes, challenges, and final results.
+## 📂 Portfolio Overview
+This portfolio presents a structured and continuous documentation of my work throughout the Digital Design & Fabrication course. It captures the complete development lifecycle of each exercise, including problem understanding, design decisions, implementation, challenges, iterations, and final outcomes.
+
+The purpose of this portfolio is to systematically track my technical growth and practical skill development across domains such as electronics, microcontrollers, and digital fabrication. It emphasizes a process-oriented approach, where both successful results and failed attempts are documented and analyzed to reflect iterative learning, problem-solving ability, and design thinking.
 
 ---
 
-## Aim of the Portfolio
-- To document all exercises and projects systematically  
-- To track learning progress and technical development  
-- To reflect on challenges, failures, and improvements  
-- To build a structured record of practical work  
-
----
-
-## About the Course
+## 📘 About the Course
 The course focuses on hands-on learning in digital design and fabrication. It covers areas such as electronics, microcontrollers, CAD design, and fabrication techniques including laser cutting and CNC milling. The emphasis is on practical implementation, experimentation, and iterative problem-solving.
 
 ---
