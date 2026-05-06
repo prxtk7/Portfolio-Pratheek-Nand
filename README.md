@@ -100,7 +100,13 @@ https://github.com/user-attachments/assets/0e08ca2e-6de7-4b52-b0a2-b69a115ee704
 - Gate voltage controls current flow.
 
 ###  Explanation
-The MOSFET acts as an electronic switch. When voltage is applied at the gate, current flows between drain and source, powering the LED strip.
+### 🧠 Explanation
+
+In this circuit, a MOSFET transistor is used as an electronic switch to control the LED strip. The MOSFET allows a low-power control signal at the gate to switch a higher current flowing through the LED strip.
+
+When no voltage is applied to the gate (LOW), the MOSFET remains OFF and no current flows, so the LED strip is turned OFF. When a voltage is applied to the gate (HIGH), the MOSFET turns ON, allowing current to flow from the power supply through the LED strip to ground, turning it ON.
+
+This method enables efficient and safe control of higher-power devices using low-power signals and is widely used in practical electronic systems such as lighting control and motor drivers.
 
 ---
 
@@ -115,25 +121,25 @@ The MOSFET acts as an electronic switch. When voltage is applied at the gate, cu
 
 <img width="300" height="400" alt="Task 2 2 Aa)" src="https://github.com/user-attachments/assets/aa1e2a1f-fa4c-4285-b2ce-be41263dad4a" />
 
-###  Circuit Setup
+
 
 ####  b) For D=15%
 
 <img width="300" height="400" alt="Task 2 2 Ab)" src="https://github.com/user-attachments/assets/8872b7fc-b08c-4633-ad18-40035f5b5905" />
 
-###  Circuit Setup
+
 
 ####  c) For D=40%
 
 <img width="300" height="400" alt="Task 2 2 Ac)" src="https://github.com/user-attachments/assets/c5ebd166-49f0-493e-9139-c8499980fce1" />
 
-###  Circuit Setup
+
 
 ####  d) For D=75%
 
 <img width="300" height="400" alt="Task 2 2 Ad)" src="https://github.com/user-attachments/assets/668ea323-836a-4796-a504-7707d8a58781" />
 
-###  Circuit Setup
+
 
 ####  e) For D=100%
 
@@ -155,19 +161,19 @@ The MOSFET acts as an electronic switch. When voltage is applied at the gate, cu
 
 https://github.com/user-attachments/assets/535b981b-41b7-46a3-b9cc-9ef392be0bcf
 
-###  Circuit Setup
+
 
 ####  b) For f=25Hz
 
 https://github.com/user-attachments/assets/c7f1d898-b02a-4aea-abdb-0c845ad0c07c
 
-###  Circuit Setup
+
 
 ####  c) For f=45Hz
 
 https://github.com/user-attachments/assets/9359d24f-8974-43af-99d5-4b2e6e588a12
 
-###  Circuit Setup
+
 
 ####  d) For f=100Hz
 
