@@ -100,7 +100,6 @@ https://github.com/user-attachments/assets/0e08ca2e-6de7-4b52-b0a2-b69a115ee704
 - Gate voltage controls current flow.
 
 ###  Explanation
-### 🧠 Explanation
 
 In this circuit, a MOSFET transistor is used as an electronic switch to control the LED strip. The MOSFET allows a low-power control signal at the gate to switch a higher current flowing through the LED strip.
 
