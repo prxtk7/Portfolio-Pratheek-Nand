@@ -20,8 +20,6 @@
 ### Task 2.2Ab)
 <img width="300" height="400" alt="Task 2 2 Ab)" src="https://github.com/user-attachments/assets/8872b7fc-b08c-4633-ad18-40035f5b5905" />
 
----
-
 ### Task 2.2Ac)
 <img width="300" height="400" alt="Task 2 2 Ac)" src="https://github.com/user-attachments/assets/c5ebd166-49f0-493e-9139-c8499980fce1" />
 
