@@ -31,4 +31,4 @@
 ### Task 2.2Ae)
 <img width="300" height="400" alt="Task 2 2 Ae)" src="https://github.com/user-attachments/assets/d22e9e0e-c591-434f-be32-0c35fa031a51" />
 
-### Task 2.2Ba)
+---
