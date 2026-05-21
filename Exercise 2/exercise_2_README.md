@@ -83,11 +83,13 @@ The push buttons were configured for different alarm operations:
 
 The Arduino continuously monitored the RTC time and compared it with the configured alarm time. When both values matched, the buzzer was activated and the LCD displayed the alarm notification.
 
+---
 
-###  Clock functionalities
+
+##  Clock functionalities
 
 
-####  1. Opening the Alarm Setup Menu
+###  1. Opening the Alarm Setup Menu
 Pressing the red button opened the alarm setup interface on the LCD display.
 
 Example LCD Output:
@@ -97,11 +99,11 @@ Alarm set:
 12:33
 ```
 
-#####  Circuit Setup
+####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_RPB" src="https://github.com/user-attachments/assets/346ad6b0-aff9-457c-8eea-0c7fd4e18d7d" />
 
-####  2. Increasing Alarm Minutes
+###  2. Increasing Alarm Minutes
 Pressing the green button increased the configured alarm minute value.
 
 Example LCD Output:
@@ -111,11 +113,11 @@ Alarm set:
 12:35
 ```
 
-#####  Circuit Setup
+####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_GPB" src="https://github.com/user-attachments/assets/f6ad1574-4d9b-4c0f-a075-9afb676ee946" />
 
-####  3. Activating the Alarm
+###  3. Activating the Alarm
 Pressing the blue button enabled the configured alarm.
 
 Example LCD Output:
@@ -125,11 +127,11 @@ Time: 13:34:00
 Alarm is ON
 ```
 
-#####  Circuit Setup
+####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_BPB" src="https://github.com/user-attachments/assets/354fae26-c8b9-432f-8206-492b35a46404" />
 
-####  4. Alarm Trigger
+###  4. Alarm Trigger
 When the RTC time matched the configured alarm time, the buzzer was activated and the LCD displayed the alarm notification.
 
 Example LCD Output:
@@ -139,7 +141,7 @@ Time: 13:34:00
 Alarm Rings!
 ```
 
-#####  Circuit Setup
+####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_Final_State" src="https://github.com/user-attachments/assets/f0f94c58-c21b-42d5-b870-a44a0a825d2b" />
 
@@ -148,8 +150,10 @@ Alarm Rings!
 - The project demonstrated how multiple electronic components can be integrated using an Arduino to process real-time information while remaining responsive to user inputs.
 - Testing highlighted that combining RTC communication, button inputs, LCD screens, and actuators into one cohesive unit requires organized hardware wiring and structured program logic to function reliably.
 
+---
 
-### Conclusion
+
+## Conclusion
 The final alarm clock project successfully consolidated multiple sub-circuits into a single, functional embedded application capable of automatically displaying time, configuring user alarms, and triggering notifications. By cleanly uniting inputs, processing, and outputs from scratch, this prototyping exercise reinforced practical, hands-on knowledge in Arduino programming, hardware interfacing, real-time systems, and interactive embedded design.
 
 
