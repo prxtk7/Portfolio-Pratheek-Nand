@@ -1,4 +1,4 @@
-# Exercise 1: Introduction to Arduino
+# Exercise 2: Introduction to Arduino
 
 
 
