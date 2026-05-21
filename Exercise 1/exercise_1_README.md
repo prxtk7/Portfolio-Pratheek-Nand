@@ -21,9 +21,9 @@ This exercise focuses on building and analyzing basic electrical circuits, inclu
 | 4700   |2.29    |2.71      |
 
 ###  Observations
-- As resistance increases, current decreases.
-- LED brightness reduces with higher resistance.
-- Voltage drop across resistor changes accordingly.
+- The LED successfully turned on once all circuit connections were completed.
+- Testing confirmed that increasing resistance reduces LED brightness because a higher resistance directly limits the electrical current flowing through the circuit.
+- While the voltage across the resistor changed significantly with different resistor values, the voltage across the LED remained relatively stable.
 
 ---
 
@@ -35,9 +35,9 @@ This exercise focuses on building and analyzing basic electrical circuits, inclu
 <img width="300" height="400" alt="Task 1 2" src="https://github.com/user-attachments/assets/204812d7-938a-4fca-a320-c0b3e02d4137" />
 
 ###  Observations
-- LED turns ON/OFF using the switch.
-- Reversing switch changes control behavior.
-- Demonstrates simple control mechanism.
+- Closing the switch completed the circuit and turned the LED on, while opening it interrupted the path and turned the LED off, demonstrating how switches control current flow.
+- Reversing the orientation of the switch had no impact on functionality, confirming that it acts purely as a non-polar, mechanical connection to open and close the circuit path.
+- The task provided a clear, hands-on demonstration of how physical circuit continuity directly dictates component behavior.
 
 ---
 
@@ -61,9 +61,9 @@ https://github.com/user-attachments/assets/0e08ca2e-6de7-4b52-b0a2-b69a115ee704
 | OFF      |0.37      |4.58    |
 
 ###  Observations
-- LED brightness varies with potentiometer position.
-- Voltage across LED changes proportionally.
-- Relationship is continuous and smooth.
+- Rotating the potentiometer gradually adjusted the LED from full brightness to dim, and eventually turned it off, demonstrating how variable resistance provides analog-style control over a circuit.
+- Testing confirmed that increasing the potentiometer's resistance directly reduces current flow, which in turn decreases the LED's brightness.
+- Voltage measurements shifted in real time based on the potentiometer’s position, practically illustrating how changing resistance alters the voltage distribution across components.
 
 ---
 
@@ -74,18 +74,11 @@ https://github.com/user-attachments/assets/0e08ca2e-6de7-4b52-b0a2-b69a115ee704
 
 <img width="300" height="400" alt="Task 2 1" src="https://github.com/user-attachments/assets/8583811d-bc04-4062-b846-60e72516c72f" />
 
-###  Observations
-- LED strip turns ON/OFF via transistor.
-- Transistor acts as a switch.
-- Gate voltage controls current flow.
-
 ###  Explanation
 
 In this circuit, a MOSFET transistor is used as an electronic switch to control the LED strip. The MOSFET allows a low-power control signal at the gate to switch a higher current flowing through the LED strip.
 
 When no voltage is applied to the gate (LOW), the MOSFET remains OFF and no current flows, so the LED strip is turned OFF. When a voltage is applied to the gate (HIGH), the MOSFET turns ON, allowing current to flow from the power supply through the LED strip to ground, turning it ON.
-
-This method enables efficient and safe control of higher-power devices using low-power signals and is widely used in practical electronic systems such as lighting control and motor drivers.
 
 ---
 
@@ -162,5 +155,13 @@ https://github.com/user-attachments/assets/03f0c349-83cb-4cad-812d-e6dab6092ea7
 - Low frequency → visible flickering  
 - High frequency → steady light  
 - Flicker disappears beyond certain frequency.
+
+---
+
+
+##  Conclusion
+This initial hands-on electronics exercise built my confidence in assembling, analyzing, and debugging breadboard circuits. Step-by-step troubleshooting and multimeter measurements bridged the gap between theory and practice, clarifying voltage distribution and current flow. Key takeaways included observing how adjustments to resistance, switching, duty cycle, and frequency directly affect LED behavior. Furthermore, the transistor and PWM tasks clearly demonstrated how low-voltage signals efficiently control higher-power devices, providing a strong foundation for practical electronic prototyping.
+
+
 
 ---
