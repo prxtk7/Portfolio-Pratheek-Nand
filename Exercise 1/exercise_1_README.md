@@ -1,4 +1,4 @@
-## 📌 Overview
+##  Overview
 This exercise focuses on building and analyzing basic electrical circuits, including LED control and transistor-based switching. The goal was to understand circuit behavior through measurements, observation, and experimentation.
 
 
