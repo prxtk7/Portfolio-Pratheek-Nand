@@ -6,6 +6,9 @@
 This exercise introduced the fundamentals of Arduino-based prototyping through the development of a functional alarm clock system using multiple electronic components and communication interfaces. The objective of the exercise was to understand how microcontrollers interact with external hardware devices such as buzzers, LCD displays, real-time clock (RTC) modules, and push buttons to create an interactive embedded system.
 
 
+---
+
+
 ###  Sub-Circuit 1 – Connecting the Buzzer
 
 The buzzer was connected to digital pin 13 on the Arduino through a current-limiting resistor (R1 = 220 Ω) to ground.
