@@ -3,7 +3,7 @@
 ## Student Details
 - Name: Pratheek Nand
 - Program: M.Sc. Engineering of Socio-Technical Systems
-- University: Carl von Ossietzky Universität Oldenburg
+- University: Carl von Ossietzky University of Oldenburg
 - Semester: Summer Semester 2026
 - Email: pratheek.nand@uni-oldenburg.de
 - Matriculation Number: 6649747
