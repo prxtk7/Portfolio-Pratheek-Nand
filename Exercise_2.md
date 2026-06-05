@@ -6,9 +6,11 @@
 This exercise introduced the fundamentals of Arduino-based prototyping through the development of a functional alarm clock system using multiple electronic components and communication interfaces. The objective of the exercise was to understand how microcontrollers interact with external hardware devices such as buzzers, LCD displays, real-time clock (RTC) modules, and push buttons to create an interactive embedded system.
 
 
-##  Sub-Circuit 1 – Connecting the Buzzer
+###  Sub-Circuit 1 – Connecting the Buzzer
 
-###  Circuit Setup
+The buzzer was connected to digital pin 13 on the Arduino through a current-limiting resistor (R1 = 220 Ω) to ground.
+
+####  Circuit Setup
 
 <img width="500 " height="800" alt="Sub-Circuit 1" src="https://github.com/user-attachments/assets/563f031a-68cd-41eb-80d3-eb71e0671203" />
 
@@ -21,12 +23,16 @@ https://github.com/user-attachments/assets/879854c3-4b5f-4d25-afbb-ef6e90cfabf7
 - The Arduino digital output pins can directly control simple electronic actuators such as buzzers through HIGH and LOW output signals.
 - This task demonstrated how software timing directly influences hardware behaviour in embedded systems.
 
----
 
+###  Sub-Circuit 2 – Connceting the LCD Screen
 
-##  Sub-Circuit 2 – Connceting the LCD Screen
+The Setup: The LCD uses the I2C protocol, which simplifies things down to just four wires: power (VCC), ground (GND), and two communication lines—SDA (data) connected to Arduino pin A4, and SCL (clock) to pin A5.
 
-###  Circuit Setup
+How I2C Works: It's a shared two-wire highway. SCL keeps the timing (like a metronome), while SDA carries the actual data. Because every device on the line has a unique digital "address," the Arduino can talk to specific components individually using the exact same wires.
+
+The Snag & Fix: This part gave us some headache. The screen wouldn't work until we found its hidden address using an `I2C_scanner` script. After fixing a few loose wires with the professor's help, the scanner found the address `(0x27)`, allowing us to finally test the screen and successfully display text.
+
+####  Circuit Setup
 
 <img width="350" height="500" alt="Sub-Circuit 2" src="https://github.com/user-attachments/assets/9100da86-4b7a-4a02-8dc9-3c9ceb8d3f0d" />
 
@@ -35,12 +41,16 @@ https://github.com/user-attachments/assets/879854c3-4b5f-4d25-afbb-ef6e90cfabf7
 - Testing confirmed that the I2C interface allows the LCD to display information clearly while requiring only minimal wiring connections.
 - The task provided hands-on experience and a practical understanding of how to interface LCDs and manage display-based output systems in Arduino projects.
 
----
 
+###  Sub-Circuit 3 – Expanding the setup with a Real Time Clock
 
-##  Sub-Circuit 3 – Expanding the setup with a Real Time Clock
+The Connection: We hooked up the RTC (Real-Time Clock) module in parallel with the LCD on the same I2C highway (A4 for data, A5 for the clock). It even has its own backup battery, so it keeps ticking even when the main power is disconnected.
 
-###  Circuit Setup
+Double-Checking the "Bus": This part was tricky. We ran the `I2C_scanner` again with both devices plugged in. Since we already knew the LCD’s address, the new one popping up on the screen had to be the RTC.
+
+The Troubleshooting: At first, the RTC was a ghost—it wouldn't show up at all. My professor helped me track it down to a loose connection on the breadboard. Once we tightened that up, the scanner found it, and we were finally able to display the live time right on the LCD.
+
+####  Circuit Setup
 
 <img width="600" height="400" alt="Sub-Circuit 3" src="https://github.com/user-attachments/assets/697395ae-0fe2-496d-b743-4af755a8716f" />
 
@@ -49,12 +59,16 @@ https://github.com/user-attachments/assets/879854c3-4b5f-4d25-afbb-ef6e90cfabf7
 - Testing confirmed that both the LCD and the RTC module could seamlessly operate together on the exact same I2C communication lines without interference.
 - The task demonstrated the RTC module's ability to continuously maintain and provide accurate, real-time information for embedded applications.
 
----
 
+###  Sub-Circuit 4 – Using the Push Button
 
-##  Sub-Circuit 4 – Using the Push Button
+Finding the Right Pins: Push buttons have four legs arranged in two connected pairs. Pressing the button bridges those pairs together. To make sure we wired it correctly, we used a multimeter's continuity mode to test which legs were which before plugging them in.
 
-###  Circuit Setup
+Smart Wiring: We configured the Arduino's internal pull-up resistors. This keeps the pin sitting at `HIGH` by default, and it drops to `LOW` only when the button is pressed. It's a neat trick because it means we didn't need to add external resistors to the board.
+
+Smooth Software: We used the `Button.h` library to handle "debouncing" automatically. This stops the Arduino from misinterpreting a single physical click as multiple rapid presses due to mechanical contact bounce.
+
+####  Circuit Setup
 
 <img width="700" height="400" alt="Sub-Circuit 4" src="https://github.com/user-attachments/assets/cdd899d2-160b-478a-a542-a782f45b260b" />
 
@@ -62,6 +76,7 @@ https://github.com/user-attachments/assets/879854c3-4b5f-4d25-afbb-ef6e90cfabf7
 - The push buttons successfully sent digital input signals to the Arduino, which processed the presses and displayed the correct outputs on the LCD screen.
 - The LCD screen and LEDs provided clear visual feedback, confirming that the system was responding correctly to the button inputs.
 - The task demonstrated how to use pull-up resistor configurations to ensure stable and reliable button input detection.
+
 
 ---
 
@@ -83,13 +98,10 @@ The push buttons were configured for different alarm operations:
 
 The Arduino continuously monitored the RTC time and compared it with the configured alarm time. When both values matched, the buzzer was activated and the LCD displayed the alarm notification.
 
----
 
+###  Clock functionalities
 
-##  Clock functionalities
-
-
-###  1. Opening the Alarm Setup Menu
+####  1. Opening the Alarm Setup Menu
 Pressing the red button opened the alarm setup interface on the LCD display.
 
 Example LCD Output:
@@ -99,11 +111,11 @@ Alarm set:
 12:33
 ```
 
-####  Circuit Setup
+#####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_RPB" src="https://github.com/user-attachments/assets/346ad6b0-aff9-457c-8eea-0c7fd4e18d7d" />
 
-###  2. Increasing Alarm Minutes
+####  2. Increasing Alarm Minutes
 Pressing the green button increased the configured alarm minute value.
 
 Example LCD Output:
@@ -113,11 +125,11 @@ Alarm set:
 12:35
 ```
 
-####  Circuit Setup
+#####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_GPB" src="https://github.com/user-attachments/assets/f6ad1574-4d9b-4c0f-a075-9afb676ee946" />
 
-###  3. Activating the Alarm
+#### 3. Activating the Alarm
 Pressing the blue button enabled the configured alarm.
 
 Example LCD Output:
@@ -127,11 +139,11 @@ Time: 13:34:00
 Alarm is ON
 ```
 
-####  Circuit Setup
+#####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_BPB" src="https://github.com/user-attachments/assets/354fae26-c8b9-432f-8206-492b35a46404" />
 
-###  4. Alarm Trigger
+####  4. Alarm Trigger
 When the RTC time matched the configured alarm time, the buzzer was activated and the LCD displayed the alarm notification.
 
 Example LCD Output:
@@ -141,14 +153,15 @@ Time: 13:34:00
 Alarm Rings!
 ```
 
-####  Circuit Setup
+#####  Circuit Setup
 
 <img width="500" height="500" alt="Arduino_Alarm_Final_State" src="https://github.com/user-attachments/assets/f0f94c58-c21b-42d5-b870-a44a0a825d2b" />
 
-###  Observations
+####  Observations
 - The system successfully executed all major requirements: tracking real-time clock data, configuring alarms with push buttons, providing LCD feedback, and triggering the buzzer alarm.
 - The project demonstrated how multiple electronic components can be integrated using an Arduino to process real-time information while remaining responsive to user inputs.
 - Testing highlighted that combining RTC communication, button inputs, LCD screens, and actuators into one cohesive unit requires organized hardware wiring and structured program logic to function reliably.
+
 
 ---
 
