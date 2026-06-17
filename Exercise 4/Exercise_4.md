@@ -67,7 +67,7 @@ Once the circuit was fully operational, I integrated the matching cover layer ov
 
 
 ##  Conclusion
-By seamlessly bridging fabric and hardware, this project transformed a simple textile into an active electronic interface, laying a strong foundation for the future of interactive wearable systems.
+This project provided a valuable introduction to e-textiles by demonstrating how electronic functionality can be embedded directly into soft materials without relying on rigid structures. While managing flexible, uninsulated conductive thread and preventing overlapping pathways presented distinct technical challenges, these difficulties ultimately underscored the necessity of iterative testing and precise layout design. Ultimately, bridging the gap between fabric and hardware has expanded my understanding of wearable technology, establishing a clean, practical foundation for developing more advanced interactive textile systems in the future.
 
 
 
