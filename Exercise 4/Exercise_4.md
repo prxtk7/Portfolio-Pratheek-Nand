@@ -39,7 +39,8 @@ To resolve this, I rerouted the lines to ensure complete separation throughout t
 
 ####  Circuit Setup
 
-<img width="400" height="480" alt="Lighting Working Ex4" src="https://github.com/user-attachments/assets/b878670c-887c-4525-993a-0d46016f8730" />
+<img width="400" height="480" alt="Lighting Working Circuit Ex4" src="https://github.com/user-attachments/assets/59120596-7ac9-46b9-a9ab-efd7eff7189a" />
+
 
 ####  Demonstration
 
@@ -52,7 +53,7 @@ Once the circuit was fully operational, I integrated the matching cover layer ov
 
 ####  Circuit Setup
 
-<img width="400" height="480" alt="IMG-20260616-WA0010" src="https://github.com/user-attachments/assets/93a0b785-3171-4c24-ab64-9a4a1ca96c1c" />
+<img width="400" height="480" alt="Lighting Working Ex4" src="https://github.com/user-attachments/assets/bfe9b36b-871c-4d69-803f-169af28bc7b5" />
 
 
 ###  Observations
