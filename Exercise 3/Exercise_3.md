@@ -1,4 +1,4 @@
-# Exercise 3: Sensors & Actuators
+#  Exercise 3: Sensors & Actuators
 
 
 
