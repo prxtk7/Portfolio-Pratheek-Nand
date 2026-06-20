@@ -34,7 +34,7 @@ This module explored Onshape’s Part Studio environment, demonstrating how to e
 
 The Onshape training path was successfully completed, validating proficiency across the required core modeling modules.
 
-<img width="1885" height="1071" alt="cad course" src="https://github.com/user-attachments/assets/a8852f03-8661-42b1-8060-48e5cae8e72d" />
+<img width="1885" height="1016" alt="CAD course" src="https://github.com/user-attachments/assets/39f8bfd0-db00-4211-9a8d-9135055c67d3" />
 
 
 ---
