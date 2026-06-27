@@ -3,11 +3,7 @@
 
 
 ##  Overview
-This exercise offered a practical introduction to the end-to-end digital fabrication workflow, tracing a design's progression from a 2D vector drawing to a finished physical product.
-
-The process kicked off with an instructional laboratory workshop where the professor demonstrated the CNC milling machine and explained the interplay between software configuration, machine parameters, and material execution. Witnessing the complete fabrication cycle firsthand underscored the critical importance of dimensional precision before drafting my custom candle holder in Inkscape according to the specified project parameters.
-
-Once the vector files were reviewed, approved, and fabricated on the CNC mill, evaluating the final wooden product provided a valuable opportunity to compare digital intent against the physical outcome, effectively bridging the gap between design and manufacturing.
+This exercise provided a practical introduction to the CNC fabrication workflow, tracing a design's progression from a 2D vector drawing to a finished physical product. The project began with a laboratory workshop covering machine configuration, material execution, and safety, which informed my subsequent layout design in Inkscape according to the specified parameters. Following a design review, the vector file was fabricated on a CNC mill, providing a valuable opportunity to evaluate the final wooden product and bridge the gap between digital design intent and physical manufacturing.
 
 
 ---
