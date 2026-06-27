@@ -58,7 +58,7 @@ Once the circuit was fully operational, I integrated the matching cover layer ov
 
 ###  Observations
 - Working with conductive thread requires significantly more precision and strategic planning than traditional wire-based electronics.
-- Because the uninsulated thread is flexible, soft circuits are highly susceptible to short circuits if the routing pathways are not meticulously mapped out from the start.
+- Since the uninsulated thread is flexible, soft circuits are highly susceptible to short circuits if the routing pathways are not meticulously mapped out from the start.
 - Troubleshooting and isolating electrical errors becomes increasingly difficult once multiple textile layers are assembled, making frequent testing throughout the construction phase critical.
 - This process demonstrated the viability of textiles as functional, integrated electronic mediums, shifting their role from purely structural or decorative materials into active hardware components.
 
