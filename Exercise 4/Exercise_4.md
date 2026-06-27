@@ -1,4 +1,4 @@
-#  Exercise 4: E-Textiles — LED Patch
+#  Exercise 4: E-Textiles
 
 
 
