@@ -1,4 +1,4 @@
-#  Exercise 7: Onshape CAD—Self-Study
+#  Exercise 7: Onshape CAD Self Study
 
 
 
