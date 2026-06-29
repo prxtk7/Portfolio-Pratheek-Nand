@@ -13,14 +13,13 @@ This exercise explored the end-to-end laser fabrication workflow by designing an
 
 The business card was drafted in Inkscape following the structural workflow introduced during the workshop. I focused the layout entirely on essential academic details—including my name, master's programme, and university email—intentionally keeping the design minimalist to ensure the text remained legible after laser engraving.
 
-Throughout the drafting process, I made minor adjustments to the alignment and spatial distribution of the elements to optimise visual balance before preparing the final file for production. To ensure optimal material processing, the parameters were split into distinct operational settings: the Raster Setting for engraving was configured at 60% speed and 100% power, while the Vector Setting for cutting the perimeter was set to a precise 7% speed and 100% power.
-
 ####  Inkscape—Business Card Design
 
 <img width="400" height="480" alt="Inkscape Business Card" src="https://github.com/user-attachments/assets/96a69f00-f897-400f-a366-3c153de1ba2f" />
 
-<img width="420" height="310" alt="Settings" src="https://github.com/user-attachments/assets/0dd8cb34-8e57-4ff8-8bd1-3cd8d898bc6f" />
+Throughout the drafting process, I made minor adjustments to the alignment and spatial distribution of the elements to optimise visual balance before preparing the final file for production. To ensure optimal material processing, the parameters were split into distinct operational settings: the Raster Setting for engraving was configured at 60% speed and 100% power, while the Vector Setting for cutting the perimeter was set to a precise 7% speed and 100% power.
 
+<img width="420" height="310" alt="Settings" src="https://github.com/user-attachments/assets/0dd8cb34-8e57-4ff8-8bd1-3cd8d898bc6f" />
 
 
 ###  Laser Fabrication
